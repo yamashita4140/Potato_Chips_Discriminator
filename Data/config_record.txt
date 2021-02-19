@@ -1,0 +1,45 @@
+# 入力画像のパラメータ
+img_width = 32  # 入力画像の幅
+img_height = 32  # 入力画像の高さ
+img_ch = 3  # 3ch(RGB)
+
+batch_size = 20     # デフォルト:5
+num_classes = 7  # 分類クラス数(ポテチ7種)
+epochs = 100  # 学習の繰り返し回数(デフォルト200)
+dropout_rate = 0.15  # 過学習防止用(デフォルト0.2)
+
+Test loss: 0.3084961473941803
+Test accuracy: 0.9685039520263672
+
+
+
+# 入力画像のパラメータ
+img_width = 64  # 入力画像の幅
+img_height = 64  # 入力画像の高さ
+img_ch = 3  # 3ch(RGB)
+
+batch_size = 40     # デフォルト:5
+num_classes = 7  # 分類クラス数(ポテチ7種)
+epochs = 100  # 学習の繰り返し回数(デフォルト200)
+dropout_rate = 0.2  # 過学習防止用(デフォルト0.2)
+
+Test loss: 0.17754386365413666
+Test accuracy: 0.9763779640197754
+
+
+batch_size = 90     # デフォルト:5
+num_classes = 7  # 分類クラス数(ポテチ7種)
+epochs = 50  # 学習の繰り返し回数(デフォルト200)
+dropout_rate = 0.25  # 過学習防止用(デフォルト0.2)
+
+Test loss: 0.1620204746723175
+Test accuracy: 0.9645669460296631
+
+
+batch_size = 90     # デフォルト:5
+num_classes = 7  # 分類クラス数(ポテチ7種)
+epochs = 150  # 学習の繰り返し回数(デフォルト200)
+dropout_rate = 0.25  # 過学習防止用(デフォルト0.2)
+
+Test loss: 0.04690086469054222
+Test accuracy: 0.9960629940032959
